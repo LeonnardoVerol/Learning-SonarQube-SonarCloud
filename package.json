@@ -1,0 +1,15 @@
+{
+  "name": "SonarQube-SonarCloud-Test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/LeonnardoVerol/SonarQube-SonarCloud-Test.git",
+  "author": "Leonnardo Verol <6124410+LeonnardoVerol@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "jest": "^24.1.0"
+  }
+}
