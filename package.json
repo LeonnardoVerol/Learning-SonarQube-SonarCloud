@@ -6,10 +6,12 @@
   "author": "Leonnardo Verol <6124410+LeonnardoVerol@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest",
-    "coverage": "jest --coverage"
+    "test": "jest --coverage",
+    "eslint": "eslint ."
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.14.1",
     "jest": "^24.1.0"
   }
 }
