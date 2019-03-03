@@ -7,7 +7,9 @@
   "license": "MIT",
   "scripts": {
     "test": "jest --coverage",
-    "eslint": "eslint ."
+    "eslint": "eslint .",
+    "report": "eslint src/* test/* -f json -o report.json",
+    "sonar": "npm run test && npm run report && sonar-scanner"
   },
   "dependencies": {},
   "devDependencies": {
